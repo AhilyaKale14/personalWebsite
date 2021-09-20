@@ -1,0 +1,566 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Personal>
+<meta name="author" content="Ahilya">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/jquery.pagepiling.min.css">
+<link rel="stylesheet" href="/css/styles2.css">
+<title>Ahilya Kale - My Resume|portfolio</title>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init("user_T0iUzA72LRxK6Zj8leZhc");
+    })();
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // generate a five digit number for the contact_number variable
+            this.contact_number.value = Math.random() * 100000 | 0;
+            // these IDs from the previous steps
+            emailjs.sendForm('service_4xef5e3', 'template_5cp3cak', this)
+                .then(function() {
+                    console.log('SUCCESS!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+</script>
+</head>
+<body>
+
+<div class="loader">
+<div class="spinner"><div class="double-bounce1"></div><div class="double-bounce2"></div></div>
+</div>
+
+<div class="click-capture"></div>
+<nav class="navbar navbar-desctop">
+<div class="position-relative w-100">
+
+<a class="navbar-brand" href="#">Ahilya</a>
+<div class="container d-block">
+    <span class="phone  my-0 d-none d-md-block">          </span> 
+    <span class="phone  my-0 d-none d-md-block">+91 9579289733</span>
+    <span class="email  my-0 d-none d-md-block">ahik1401@gmail.com</span>
+</div>
+
+<button class="toggler">
+<span class="toggler-icon"></span>
+<span class="toggler-icon"></span>
+<span class="toggler-icon"></span>
+</button>
+</div>
+</nav>
+<nav class="navbar-bottom">
+<div class="social">
+
+<ul class="social-icons mr-auto mr-lg-0 d-none d-sm-block">
+<li><a href="https://www.facebook.com/profile.php?id=100009424149902" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+<li><a href="https://twitter.com/AhilyaKale" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+<li><a href="https://www.linkedin.com/in/ahilyakale/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+<li><a href="https://github.com/AhilyaKale14"target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+</ul>
+</div>
+
+<div class="copy d-none d-sm-block">© Ahilya. 2021.</div>
+</nav>
+
+<nav class="navbar navbar-mobile">
+<ion-icon class="close" name="close-outline"></ion-icon>
+
+<ul class="language">
+<li class="active"><a href="#">ENG</a></li>
+</ul>
+<ul class="navbar-nav navbar-nav-mobile">
+<li class="active"><a class="nav-link active" data-menuanchor="home" href="#home">Home</a></li>
+<li><a class="nav-link" data-menuanchor="about" href="#about">About</a></li>
+<li><a class="nav-link" data-menuanchor="experience" href="#experience">Experience</a></li>
+<li><a class="nav-link" data-menuanchor="expertized" href="#expertized">Expertized</a></li>
+<li><a class="nav-link" data-menuanchor="projects" href="#projects">Projects</a></li>
+<li><a class="nav-link" data-menuanchor="skills" href="#skills">Skills</a></li>
+<li><a class="nav-link" data-menuanchor="work" href="#work">My Work</a></li>
+<li><a class="nav-link" data-menuanchor="blogs" href="#blogs">My Blog</a></li>
+<li><a class="nav-link" data-menuanchor="contact" href="#contact">Contact</a></li>
+</ul>
+<div class="navbar-mobile-footer">
+<p>© Ahilya. 2021. All Rights Reserved.</p>
+</div>
+</nav>
+<div id="pagepiling">
+
+<section id="home" class="navbar-is-white text-white pp-scrollable d-flex align-items-center section position-absolute" style="background-image:url('/assets/ahilyaimage.jpeg');" role="main">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-xl-5">
+<div class="mb-2">I'm AI<br> Developer</div>
+<h1 class="text-white"><span class="text-primary text-typed a-typed a-typed-about">Hello,</span> My name is Ahilya.</h1>
+<div class="line"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="about" class="section pp-scrollable d-flex align-items-center position-absolute">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-md-6 pr-md-5 pr-lg-0">
+<div class="mb-4 text-dark">My specialization</div>
+<h2>I am a trending <br><span class="text-primary">developer</span></h2>
+<div class="mt-5 pt-2">
+<p>01. DATA ANALYTICS</p>
+<p>02. ARTIFICIAL INTELLIGENCE</p>
+<p>03. APPLICATION DEVELOPEMENT</p>
+<p>04. WEBSITE DESIGN</p>
+</div>
+</div>
+<div class="mt-5 mt-md-0 col-md-6 col-lg-5  offset-lg-1">
+<div class="position-relative">
+<img alt="" class="border-radius w-100" src="/assets/workingwomen1.png">
+<div class="experience-info">
+<div class="experience-number">2</div>
+<div class="experience-text">YEARS<br> EXPERIENCE<br> WORKING</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="experience" class="navbar-is-white text-white section pp-scrollable d-flex align-items-center position-absolute" style="background-image:url('/assets/expbg.jpg');">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<h2 class="text-white mb-0">Experience</h2>
+<div class="mt-5 pt-5">
+<div class="carousel-experience owl-carousel">
+<div class="experience-item">
+<div class="row row-experience">
+<div class="col-md-4"><a href=""><img alt="" src="/assets/SB1.png"></a></div>
+<div class="col-md-4 my-4">JUNE 2021-AUG 2021 <h3 class="my-0 text-white">SMARTBRIDGE</h3></div>
+<div class="col-md-4">Project - Car Performance Prediction Using IBM Watson Machine Learning</div>
+</div>
+<div class="row row-experience">
+<div class="col-md-4"><a href=""><img alt="" src="/assets/c7201.png"></a></div>
+<div class="col-md-4 my-4">JULY 2021-AUG 2021 <h3 class="my-0 text-white">CAREERS720</h3></div>
+<div class="col-md-4">Search Engine Optimization Senior Intern</div>
+</div>
+<div class="row row-experience">
+<div class="col-md-4"><a href=""><img alt="" src="/assets/p20.PNG"></a></div>
+<div class="col-md-4">JUNE 2021-JULY 2021 <h3 class="my-0 text-white">PSYCUS</h3></div>
+<div class="col-md-4">Content Creation</div>
+</div>
+</div>
+<div class="experience-item">
+<div class="row row-experience">
+<div class="col-md-4"><a href=""><img alt="" src=""></a></div>
+<div class="col-md-4 my-4"> <h3 class="my-0 text-white"></h3></div>
+<div class="col-md-4"></div>
+</div>
+<div class="row row-experience">
+<div class="col-md-4"><a href=""><img alt="" src=""></a></div>
+<div class="col-md-4 my-4"> <h3 class="my-0 text-white"></h3></div>
+ <div class="col-md-4"></div>
+</div>
+<div class="row row-experience">
+<div class="col-md-4"><a href=""><img alt="" src=""></a></div>
+<div class="col-md-4 my-4"> <h3 class="my-0 text-white"></h3></div>
+<div class="col-md-4"</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="expertized" class="section pp-scrollable d-flex align-items-center position-absolute"
+style="background-image:url('');">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-5">
+<div class="position-relative">
+<div class="photo-icon photo-icon-1"><img alt="" class="w-100" src=""></div>
+<div class="photo-icon photo-icon-2"><img alt="" class="w-100" src=""></div>
+<div class="photo-icon photo-icon-3"><img alt="" class="w-100" src=""></div>
+<img alt="" class="border-radius w-100" src="/assets/skillsicon.png">
+</div>
+</div>
+<div class="mt-5 mt-lg-0 col-lg-5 offset-lg-1">
+<h2>What I Have <span class="text-primary">Expertized</span> </h2>
+<p>These are the skills I am passionate about.</p>
+<div class="mt-5 pt-2">
+<div class="progress-item">
+<div class="row">
+<h6 class="col-md-6 mt-0">Data Science</h6>
+<h6 class="col-md-6 text-right mt-0">80%</h6>
+</div>
+<div class="progress mb-5">
+<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+</div>
+</div>
+</div>
+<div class="progress-item">
+<div class="row">
+<h6 class="col-md-6 mt-0">Python</h6>
+<h6 class="col-md-6 text-right mt-0">70%</h6>
+</div>
+<div class="progress mb-5">
+<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="progress-item">
+<div class="row">
+<h6 class="col-md-6 mt-0">Web Developement</h6>
+<h6 class="col-md-6 text-right mt-0">60%</h6>
+</div>
+<div class="progress mb-5">
+<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="progress-item">
+<div class="row">
+<h6 class="col-md-6 mt-0">Content Creation</h6>
+<h6 class="col-md-6 text-right mt-0">90%</h6>
+</div>
+<div class="progress">
+<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="projects" class="navbar-is-white text-white section pp-scrollable position-absolute"
+style="background-image:url(/assets/projectsmy.jpg)">
+<div class="project-wrap">
+<div class="bg-changer">
+<div class="section-bg active" style="background-image:url();"></div>
+<div class="section-bg" style="background-image:url(/assets/guitar.jpg);"></div>
+<div class="section-bg" style="background-image:url(/assets/Medical.jpg);"></div>
+<div class="section-bg" style="background-image:url(/assets/psychology.jpg);"></div>
+<div class="section-bg" style="background-image:url(/assets/careertest.jpg);"></div>
+</div>
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<h2 class="text-white mb-0">My Projects</h2>
+<div class="mt-5 pt-2">
+<div class="row-project-box row">
+<div class="col-project-box col-md-6 col-lg-4 col-xl-3">
+<a href="" class="project-box">
+<div class="project-box-inner">
+<h4>Car Performance Prediction</h4>
+<div class="project-category">IBM Watson Machine Learning</div>
+</div>
+</a>
+</div>
+<div class="col-project-box col-md-6 col-lg-4 col-xl-3">
+<a href="" class="project-box">
+<div class="project-box-inner">
+<h4>Guitarex</h4>
+<div class="project-category">Playing Made Easier</div>
+</div>
+</a>
+</div>
+<div class="col-project-box col-md-6 col-lg-4 col-xl-3">
+<a href="" class="project-box">
+<div class="project-box-inner">
+<h4>MedLupin</h4>
+<div class="project-category">Finest Click Away</div>
+</div>
+</a>
+</div>
+<div class="col-project-box col-md-6 col-lg-4 col-xl-3">
+<a href="" class="project-box">
+<div class="project-box-inner">
+<h4>Psychology</h4>
+<div class="project-category">Infographs</div>
+</div>
+</a>
+</div>
+<div class="col-project-box col-md-6 col-lg-4 col-xl-3">
+<a href="" class="project-box">
+<div class="project-box-inner">
+<h4>Career Test</h4>
+<div class="project-category">Content Creation</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills" class="section pp-scrollable position-absolute">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<h2 class="mb-0"><span class="text-primary">Skills</span> I Know</h2>
+<div class="mt-5 pt-2">
+<div class="row-partners row align-items-center ">
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/Python.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/c++.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/HTML.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/CSS.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+ <img alt="" src="/assets/jupyter.png">
+ </div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/Pandas.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/numpy.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/Splunk.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/icons-07.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/icons-10.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+<img alt="" src="/assets/icons-16.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+    <img alt="" src="/assets/icons-03.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+    <img alt="" src="/assets/flask.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+    <img alt="" src="/assets/Git.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+    <img alt="" src="/assets/Tableau.png">
+</div>
+<div class="col-partner col-sm-6 col-md-4  col-xl-3">
+    <img alt="" src="/assets/spyder.png">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="work" class="navbar-is-white text-white section pp-scrollable d-flex align-items-center position-absolute" style="background-image:url('/assets/Content.jpg');">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-xl-5">
+<span class="icon-quote text-primary">"</span>
+<h2 class="title-uppercase text-white">Hey, this is <span class="text-primary">My Work in Content Creation</span> from my best clients & partners</h2>
+</div>
+<div class="col-lg-5 col-xl-5  offset-lg-1 offset-xl-2">
+<div class="carousel-testimonials owl-carousel">
+<div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Motivation Assessment</strong><br>CAREERS720</p>
+<p><a href=""><img alt="" src="/assets/Motivation.png"></a>
+</p>
+</div>
+<div>
+ <p class="mb-5"><strong class="h4 text-white mb-0">Soft Skillst</strong><br>CAREERS720</p>
+<p><a href=""><img alt="" src="/assets/softskills.png"></a>
+</p>
+</div>
+<div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Learning Styles</strong><br>CAREERS720</p>
+ <p><a href=""><img alt="" src="/assets/learningstyles.png"></a>
+ </p>
+</div>
+<div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Stress Management</strong><br>CAREERS720</p>
+ <p><a href=""><img alt="" src="/assets/stress.png"></a>
+ </p>
+ </div>
+ <div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Career Management</strong><br>CAREERS720</p>
+<p><a href=""><img alt="" src="/assets/careerm.png"></a>
+ </p>
+</div>
+<div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Smart Goals</strong><br>CAREERS720</p>
+<p><a href=""><img alt="" src="/assets/smartgoals.png" height="350"></a>
+</p>
+</div>
+<div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Impulse Management</strong><br>CAREERS720</p>
+<p><a href=""><img alt="" src="/assets/Impulse.png" height="350"></a>
+</p>
+</div>
+<div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Emotional Intelligence</strong><br>CAREERS720</p>
+<p><a href=""><img alt="" src="/assets/EI.png"></a>
+ </p>
+</div>
+<div>
+<p class="mb-5"><strong class="h4 text-white mb-0">Social Intelligence</strong><br>CAREERS720</p>
+<p><a href=""><img alt="" src="/assets/SI.png"></a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="blogs" class="section pp-scrollable position-absolute">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<div class="d-block d-md-flex align-items-center justify-content-between">
+<h2 class="mb-0 mb-3 mb-md-0">My Blog</h2>
+<a href="#" class="btn">View all</a>
+</div>
+<div class="mt-5 pt-4">
+<div class="news-row row">
+<div class="col-lg-4">
+<figure>
+<a href="#" class="image-link">
+<img alt="" class="w-100" src="img">
+</a>
+<figcaption>
+<p class="mt-4 size-sm text-uppercase"> 01 / June, 2020</p>
+<h4 class="mt-3"><br> </h4>
+<a href="" class="read-more">Read more<ion-icon name="chevron-forward-outline"></ion-icon></a>
+</figcaption>
+</figure>
+</div>
+<div class="col-lg-4 mt-5 mt-lg-0">
+<figure>
+<a href="#" class="image-link">
+<img alt="" class="w-100" src="img">
+</a>
+<figcaption>
+<p class="mt-4 size-sm text-uppercase">02 / June, 2020</p>
+<h4 class="mt-3"><br> </h4>
+<a href="" class="read-more">Read more<ion-icon name="chevron-forward-outline"></ion-icon></a>
+</figcaption>
+</figure>
+</div>
+<div class="col-lg-4 mt-5 mt-lg-0">
+<figure>
+<a href="#" class="image-link">
+<img alt="" class="w-100" src="">
+</a>
+<figcaption>
+<p class="mt-4 size-sm text-uppercase"> 03 / June, 2020</p>
+<h4 class="mt-3"><br></h4>
+<a href="" class="read-more">Read more<ion-icon name="chevron-forward-outline"></ion-icon></a>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="navbar-is-white text-white section pp-scrollable position-absolute" style="background-image:url('/assets/contactbg1.JPG');">
+<div class="intro">
+<div class="scroll-wrap">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<h2 class="text-white">Contact</h2>
+<p class="text-muted">I hope this conversations leads to something productive.</p>
+<h3 class="text-white mt-5 pt-5">Camp, Amravati, Maharashtra, India</h3>
+<h3 class="text-white">(+91) 9579289733</h3>
+<p class="text-muted mt-3">ahik1401@gmail.com</p>
+</div>
+<div class="col-md-5 offset-md-2">
+<h3 class="text-white mt-0">I will get back to you , <span class="text-primary">soon.</span></h3>
+<div class="mt-5">
+<form class="js-ajax-form" id="contact-form">
+    <input type="hidden" name="contact_number">
+    <div class="form-group">
+        <input type="text" name="name" class="form-control" placeholder="Name">
+    </div>
+    <div class="form-group">
+        <input type="email" name="email" class="form-control" required="" placeholder="Email *">
+    </div>
+    <div class="form-group">
+        <textarea rows="3" name="message" class="form-control" placeholder="Message"></textarea>
+    </div>
+    <!-- <div class="message" id="success-message">Your message is successfully sent...</div>
+    <div class="message" id="error-message">Sorry something went wrong</div> -->
+    <div class="form-group mb-0">
+    <input type="submit" class="btn value="Send">
+<!-- <button type="submit" class="btn" value="Send">Contact me</button> -->
+    </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<div class="progress-nav">
+<ul class="navbar-nav">
+<li data-menuanchor="home" class="active"></li>
+<li data-menuanchor="about"></li>
+<li data-menuanchor="experience"></li>
+<li data-menuanchor="expertized"></li>
+<li data-menuanchor="projects"></li>
+<li data-menuanchor="skills"></li>
+<li data-menuanchor="work"></li>
+<li data-menuanchor="blogs"></li>
+<li data-menuanchor="contact"></li>
+</ul>
+</div>
+
+<script data-cfasync="false" src="/js/email-decode.min.js"></script>
+<script src="/js/1.12.4.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script src="/js/jquery.valdate.mins.js"></script>
+<script src="js/jquery.magnific -popup.min.js"></script>
+<script src="/js/jquery.pagepiling.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/interface.js"></script>
+</body>
+</html>
